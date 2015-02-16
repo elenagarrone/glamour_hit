@@ -1,0 +1,16 @@
+section#packages_and_prices {
+  padding-top: 70px;
+  margin: 0px 9.5% 0px 9.5%;
+  text-align: justify;
+  color: white;
+}
+
+article#p_p_requirements { margin: 50px 0px 0px 0px; }
+
+article#p_p_requirements ul{
+  list-style-type: none;
+}
+
+article#p_p_requirements ul li{
+  font-size: 10px;
+}
