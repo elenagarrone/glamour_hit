@@ -58,4 +58,5 @@ Rails.application.routes.draw do
   resources :homepage
   resources :services
   resources :packages_and_prices
+  resources :contact
 end

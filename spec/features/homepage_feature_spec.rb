@@ -20,9 +20,15 @@ feature 'homepage' do
     expect(current_path).to eq(services_path)
   end
 
-    scenario 'when clicking on "packages & prices" I should be redirected to that page' do
+  scenario 'when clicking on "packages & prices" I should be redirected to that page' do
     visit '/homepage'
     click_link 'Packages & Prices'
     expect(current_path).to eq(packages_and_prices_path)
+  end
+
+  scenario 'when clicking on "contact" I should be redirected to that page' do
+    visit '/contact'
+    click_link 'Contact'
+    expect(current_path).to eq(contact_index_path)
   end
 end
