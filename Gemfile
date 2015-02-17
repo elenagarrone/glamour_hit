@@ -33,6 +33,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 gem "twitter-bootstrap-rails"
 gem 'devise'
+gem 'mail_form'
+gem 'simple_form'
+gem 'mail'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
