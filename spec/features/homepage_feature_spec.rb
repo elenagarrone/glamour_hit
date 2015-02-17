@@ -27,7 +27,7 @@ feature 'homepage' do
   end
 
   scenario 'when clicking on "contact" I should be redirected to that page' do
-    visit '/contact'
+    visit '/homepage'
     click_link 'Contact'
     expect(current_path).to eq(contact_index_path)
   end
