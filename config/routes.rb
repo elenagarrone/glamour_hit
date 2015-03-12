@@ -59,6 +59,7 @@ Rails.application.routes.draw do
   resources :services
   resources :packages_and_prices
   resources :contacts, only: [:new, :create]
-  resources :pictures
-  resources :preview_pictures
+  resources :gallery, controller: 'preview_pictures' do
+    resources :pictures
+  end
 end
