@@ -1,0 +1,6 @@
+<h1>Add a preview picture</h1>
+
+<%= form_for @preview_picture, html: {multipart: true} do |f| %>
+  <%= f.file_field :image %>
+  <%= f.submit %>
+<% end %>
