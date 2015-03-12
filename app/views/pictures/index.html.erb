@@ -1,15 +1,11 @@
 <section class='container'>
-  <% if PreviewPicture.all.any? %>
     <% PreviewPicture.all.each do |preview_picture| %>
-      <% Picture.all.each do |picture| %>
-        <a class="fancybox" rel="group" href="<%= picture.image.url(:original)%>" ><%= image_tag preview_picture.image.url(:original), :class => 'grayscale' %></a>
-      <% end %>
+
+        <a class="fancybox" rel="group" href="#" ><%= image_tag preview_picture.image.url(:original), :class => 'grayscale' %></a>
+
     <% end %>
-  <% end %>
 </section>
 
 <% if user_signed_in? %>
 <% end %>
   <%= link_to "Add Picture", new_preview_picture_path, :class => "add_preview_picture" %>
-
-  
