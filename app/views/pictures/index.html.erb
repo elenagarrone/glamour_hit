@@ -1,0 +1,13 @@
+<section class='container'>
+  <% if Picture.all.any? %>
+    <% Picture.all.each do |picture| %>
+      <a class="fancybox" rel="group" href="#"><%= image_tag picture.image.url(:original), :class => 'grayscale' %></a>
+    <% end %>
+  <% end %>
+</section>
+
+<% if user_signed_in? %>
+<% end %>
+  <%= link_to "Add Picture", new_picture_path, :class => "add_picture" %>
+
+  

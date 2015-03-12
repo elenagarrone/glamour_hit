@@ -1,0 +1,16 @@
+.add_picture {
+  position: absolute;
+  top: 200px;
+}
+
+img.grayscale{ 
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+  filter: gray;  /* For IE 6 - 9 */
+}
+
+img.grayscale:hover{ 
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  filter: none;
+}
