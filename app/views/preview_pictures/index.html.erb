@@ -1,7 +1,7 @@
 <section class='container'>
     <% PreviewPicture.all.each do |preview_picture| %>
 
-        <a class="fancybox" rel="group" href="#" ><%= image_tag preview_picture.image.url(:original), :class => 'grayscale' %></a>
+        <a class="fancybox" rel="group" href="<%= preview_picture.picture.image.url(:original)%>" ><%= image_tag preview_picture.image.url(:original), :class => 'grayscale' %></a>
 
     <% end %>
 </section>

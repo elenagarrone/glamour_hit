@@ -7,7 +7,7 @@ class PicturesController < ApplicationController
 
   def create
     @preview_picture = PreviewPicture.find(params[:preview_picture_id])
-    @picture = @preview_picture.create_picture
+    @picture = @preview_picture.create_picture(picture_params)
     if @picture.save
       redirect_to "/preview_pictures"
     else
