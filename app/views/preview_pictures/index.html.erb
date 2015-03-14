@@ -1,8 +1,9 @@
 <section class='container'>
     <% PreviewPicture.all.each do |preview_picture| %>
-
-        <a class="fancybox" rel="group" href="<%= preview_picture.picture.image.url(:original)%>" ><%= image_tag preview_picture.image.url(:original), :class => 'grayscale' %></a>
-
+      <a class="fancybox" rel="group" href="<%= preview_picture.picture.image.url(:original)%>" ><%= image_tag preview_picture.image.url(:original), :class => 'grayscale' %></a>
+      <% if user_signed_in? %>
+      <% end %>
+        <%= link_to "Delete", preview_picture_path(:id => preview_picture.id), method: :delete %>
     <% end %>
 </section>
 

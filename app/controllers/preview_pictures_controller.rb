@@ -14,6 +14,12 @@ class PreviewPicturesController < ApplicationController
     @preview_picture = PreviewPicture.find(params[:id])
   end
 
+  def destroy
+    @preview_picture = PreviewPicture.find(params[:id])
+    @preview_picture.destroy
+    redirect_to preview_pictures_path
+  end
+
   def preview_picture_params
     params.require(:preview_picture).permit(:image)
   end
