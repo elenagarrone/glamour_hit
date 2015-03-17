@@ -4,6 +4,7 @@
       <% if user_signed_in? %>
       <% end %>
         <%= link_to "Delete", preview_picture_path(:id => preview_picture.id), method: :delete %>
+        <%= link_to "Edit", edit_preview_picture_path(preview_picture) %>
     <% end %>
 </section>
 

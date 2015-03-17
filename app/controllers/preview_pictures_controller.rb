@@ -20,6 +20,17 @@ class PreviewPicturesController < ApplicationController
     redirect_to preview_pictures_path
   end
 
+  def edit
+    @preview_picture = PreviewPicture.find(params[:id])
+  end
+
+  def update
+    @preview_picture = PreviewPicture.find(params[:id])
+    @preview_picture.update(preview_picture_params)
+
+    redirect_to preview_pictures_path
+  end
+
   def preview_picture_params
     params.require(:preview_picture).permit(:image)
   end

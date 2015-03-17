@@ -1,0 +1,11 @@
+<section class='main'>
+  <article id='form_preview'>
+    <h3>Edit the picture's preview (250px x 250px)</h3>
+
+    <%= form_for @preview_picture, html: {multipart: true} do |f| %>
+      <%= f.file_field :image %>
+      <%= f.submit %>
+    <% end %>
+
+  </article>
+</section>
