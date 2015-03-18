@@ -27,8 +27,9 @@ class PreviewPicturesController < ApplicationController
   def update
     @preview_picture = PreviewPicture.find(params[:id])
     @preview_picture.update(preview_picture_params)
-
-    redirect_to preview_pictures_path
+    id = @preview_picture.id
+    redirect_to "/pictures/#{id}/edit"
+    # redirect_to preview_pictures_path
   end
 
   def preview_picture_params
