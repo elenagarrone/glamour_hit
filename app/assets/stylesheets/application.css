@@ -17,6 +17,7 @@
 html,
 body {
   height: 100%;
+  font-family: 'Lato', sans-serif;
 }
 
 .nav.navbar-nav {
@@ -30,13 +31,17 @@ body {
   text-shadow: 1px 1px 3px rgb(87, 85, 85);
   color:white;
   font-weight: bold;
+  font-size: 1.2em;
 }
 
 .navbar-inverse .navbar-brand { color: white; }
 
 .navbar.navbar-inverse.navbar-fixed-top {
-  background-color: transparent;
+  /*background-color: transparent;*/
   border-color: transparent;
+  border-bottom: none;
+  background: -webkit-gradient(linear, center bottom, center top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.3)));
+  height: 60px;
 }
 
 footer {
