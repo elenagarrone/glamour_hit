@@ -18,6 +18,7 @@ html,
 body {
   height: 100%;
   font-family: 'Lato', sans-serif;
+  margin-top: 30px;
 }
 
 .nav.navbar-nav {
@@ -36,18 +37,18 @@ body {
 }
 
 .nav.navbar-nav li a {
-  text-shadow: 1px 1px 1px rgb(131, 131, 131);
-  color: white;
+  /*text-shadow: 1px 1px 1px rgb(131, 131, 131);*/
+  /*color: white;*/
+  color: rgb(48, 48, 48);
   font-size: 1em;
 }
 
-.navbar-inverse .navbar-brand { color: white; }
+.navbar-inverse .navbar-brand { color: rgb(48, 48, 48); }
 
 .navbar.navbar-inverse.navbar-fixed-top {
-  /*background-color: transparent;*/
+  background: rgba(255, 255, 255, 0);/*background: -webkit-gradient(linear, center bottom, center top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.3)));*/
   border-color: transparent;
   border-bottom: none;
-  background: -webkit-gradient(linear, center bottom, center top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.3)));
   height: 60px;
 }
 

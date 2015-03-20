@@ -1,5 +1,5 @@
 body { 
-  background-color: rgb(74, 74, 74); 
+  background-color: white; 
   overflow: hidden;
 }
 
@@ -21,8 +21,8 @@ body {
   line-height: 2;
   width: 72%;
   text-align: justify;
-  color: white;
-  font-weight: 100;
+  color: black;
+  font-weight: 300;
   font-size: 1.1em;
   display: inline-block;
 }
