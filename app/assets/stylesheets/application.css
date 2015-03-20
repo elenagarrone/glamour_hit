@@ -44,6 +44,10 @@ body {
   height: 60px;
 }
 
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+  color: #575757;
+}
+
 footer {
   margin: 50px 0;
 }
