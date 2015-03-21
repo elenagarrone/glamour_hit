@@ -12,9 +12,10 @@ section#packages_and_prices {
   color: #AA052A;
 }
 #packages_and_prices article h5 {
-  font-size: 1em;
+  font-size: 2em;
   text-align: right;
   color: #AA052A;
+  font-family: 'Great Vibes', cursive;
 }
 
 #packages_and_prices article ul {
