@@ -1,8 +1,21 @@
 section#packages_and_prices {
-  padding-top: 110px;
-  margin: 0px 9.5% 0px 9.5%;
-  text-align: justify;
-  color: rgb(48, 48, 48);
+  margin-top: 3%;
+  width: 77%;
+  position: absolute;
+  top: 85px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.text_p_p {
+  width: 64%;
+  display: inline-block;
+  padding: 0px 0px 0px 35px;
+}
+
+img {
+  vertical-align: top;
+  width: 35%;
 }
 
 #packages_and_prices article h3 {
