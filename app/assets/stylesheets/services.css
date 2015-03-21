@@ -34,7 +34,7 @@ body {
   width: 30%;
 }
 
-@media all and (min-width: 840px) and (max-width : 1280px) {
+@media screen and (min-width: 840px) and (max-width : 1280px) {
 
   #services h1 {
     font-size: 2.5em;
@@ -52,7 +52,7 @@ body {
 
 }
 
-@media all and (max-width : 839px) {
+@media screen and (max-width : 839px) {
 
   body { 
     overflow: visible;
