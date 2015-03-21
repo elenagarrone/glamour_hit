@@ -13,16 +13,22 @@ section#packages_and_prices {
   padding: 0px 0px 0px 35px;
 }
 
+.text_p_p article {
+  margin-bottom: 30px;
+}
+
 img {
   vertical-align: top;
   width: 35%;
 }
 
 #packages_and_prices article h3 {
+  margin-top: 0;
   font-family: 'Great Vibes', cursive;
   font-size: 3em;
   color: #AA052A;
 }
+
 #packages_and_prices article h5 {
   font-size: 2em;
   text-align: right;
@@ -33,6 +39,7 @@ img {
 #packages_and_prices article ul {
   font-weight: 300;
   font-size: 1.3em;
+  line-height: 1.5;
 }
 
 article#p_p_requirements { margin: 50px 0px 0px 0px; }
@@ -43,4 +50,52 @@ article#p_p_requirements ul{
 
 article#p_p_requirements ul li{
   font-size: 0.7em;
+}
+
+@media screen and (min-width: 840px) and (max-width : 1280px) {
+
+  #packages_and_prices article ul {
+    font-size: 1.1em;
+  }
+
+  #packages_and_prices article h3 {
+    font-size: 2.5em;
+  }
+
+  #packages_and_prices article h5 {
+    font-size: 1.8em;
+  }
+
+}
+
+@media screen and (max-width : 839px) {
+
+  body {
+    overflow: visible;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .text_p_p {
+    width: 100%;
+    padding: 40px 0px 0px 0px;
+  }
+
+  article#p_p_requirements {
+    margin: 50px 0px;
+  }
+
+  #packages_and_prices article h3 {
+    font-size: 2em;
+  }
+
+  #packages_and_prices article ul {
+    font-size: 1.1em;
+  }
+
+  #packages_and_prices article h5 {
+    font-size: 1.5em;
+  }
 }
