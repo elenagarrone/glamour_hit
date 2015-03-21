@@ -13,7 +13,9 @@ body {
 }
 
 #services h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
+  /*font-weight: 700;*/
 }
 
 #p_services {
