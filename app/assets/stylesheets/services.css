@@ -58,7 +58,12 @@ body {
     overflow: visible;
   }
 
+  #services h1 {
+    font-size: 2em;
+  }
+
   #p_services {
+    font-size: 1.1em;
     width: 100%;
     padding: 0;
   }
