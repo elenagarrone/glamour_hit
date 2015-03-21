@@ -4,7 +4,7 @@ body {
 }
 
 #services {
-  margin-top: 30px;
+  margin-top: 3%;
   width: 77%;
   position: absolute;
   top: 85px;
@@ -19,17 +19,53 @@ body {
 }
 
 #p_services {
-  margin-top: 7px;
+  padding: 0px 40px 0px 0px;
   line-height: 2;
-  width: 72%;
+  width: 70%;
   text-align: justify;
   color: black;
   font-weight: 300;
-  font-size: 1.1em;
+  font-size: 1.3em;
   display: inline-block;
 }
 
 #services img {
   float: right;
-  width: 25%;
+  width: 30%;
+}
+
+@media all and (min-width: 840px) and (max-width : 1280px) {
+
+  #services h1 {
+    font-size: 2.5em;
+  }
+
+  #p_services {
+    width: 65%;
+    font-size: 1.1em;
+    padding: 0px 20px 0px 0px;
+  }
+
+  #services img {
+    width: 33%;
+  }
+
+}
+
+@media all and (max-width : 839px) {
+
+  body { 
+    overflow: visible;
+  }
+
+  #p_services {
+    width: 100%;
+    padding: 0;
+  }
+
+  #services img {
+    margin: 20px 0px;
+    width: 100%;
+  }
+
 }
