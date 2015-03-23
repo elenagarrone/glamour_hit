@@ -1,3 +1,8 @@
+//= depend_on_asset "_MG_0111.jpg"
+//= depend_on_asset "_MG_0246jpeg.jpg"
+//= depend_on_asset "_MG_0430.jpg"
+//= depend_on_asset "_MG_0650.jpg"
+
 .carousel,
 .item,
 .active {
@@ -21,19 +26,19 @@
 }
 
 #image1 {
-  background-image: url('/assets/_MG_0111.jpg');
+  background-image: url(<%= asset_path('_MG_0111.jpg') %>);
 }
 
 #image2 {
-  background-image: url('/assets/_MG_0246jpeg.jpg');
+  background-image: url(<%= asset_path('_MG_0246jpeg.jpg') %>);
 }
 
 #image3 {
-  background-image: url('/assets/_MG_0430.jpg');
+  background-image: url(<%= asset_path('_MG_0430.jpg') %>);
 }
 
 #image4 {
-  background-image: url('/assets/_MG_0650.jpg');
+  background-image: url(<%= asset_path('_MG_0650.jpg') %>);
 }
 
 .carousel-indicators {
