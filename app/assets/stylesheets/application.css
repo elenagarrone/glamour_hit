@@ -60,7 +60,7 @@ footer {
   margin: 50px 0;
 }
 
-@media screen and (min-width: 768px) and (max-width : 991px) {
+@media screen and (min-device-width: 768px) and (max-device-width : 991px) {
 
   .nav.navbar-nav {
     width: 60%;
@@ -68,7 +68,7 @@ footer {
 
 }
 
-@media screen and (max-width : 767px) {
+@media screen and (max-device-width : 767px) {
 
   .container {
     -webkit-text-size-adjust: none;
