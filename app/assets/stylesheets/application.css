@@ -56,11 +56,11 @@ body {
   color: #AA052A;
 }
 
-footer {
+/*footer {
   margin: 50px 0;
-}
+}*/
 
-@media only screen and (min-width: 768px) and (max-width : 991px) {
+@media all and (min-width: 768px) and (max-width : 991px) {
 
   .nav.navbar-nav {
     width: 60%;
@@ -68,7 +68,7 @@ footer {
 
 }
 
-@media only screen and (max-width : 767px) {
+@media all and (max-width : 767px) {
 
   .container {
     -webkit-text-size-adjust: none;
