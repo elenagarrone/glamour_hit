@@ -2,7 +2,7 @@ section#packages_and_prices {
   margin-top: 100px;
   position: static;
   width: 100%;
-  padding: 2em 4em;
+  padding: 2em 12em;
 /*  margin-top: 3%;
   width: 77%;
   position: absolute;
@@ -58,6 +58,8 @@ article#p_p_requirements ul li{
 
 @media only screen and (min-width: 840px) and (max-width : 1280px) {
 
+  section#packages_and_prices { padding: 2em 8em; }
+
   #packages_and_prices article ul {
     font-size: 1.1em;
   }
@@ -77,6 +79,8 @@ article#p_p_requirements ul li{
   body {
     overflow: visible;
   }
+
+  section#packages_and_prices { padding: 2em 4.5em; }
 
   img {
     width: 100%;
