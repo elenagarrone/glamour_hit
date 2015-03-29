@@ -115,14 +115,19 @@ body {
   }
 
   .nav.navbar-nav {
-    top: 130px;
-    left: 88%;
-    width: 24%;
-    margin-right: 15px;
+    float: right;
+    width: 19%;
+    margin: 0px 15px;
+    padding: 0px 0px;
   }
 
   .nav.navbar-nav li {
+    min-width: 100px;
     background-color: rgba(226, 226, 226, 1);
+  }
+
+  .nav.navbar-nav li:hover {
+    background-color: rgba(239, 239, 239, 1);
   }
 
   .navbar-header {
