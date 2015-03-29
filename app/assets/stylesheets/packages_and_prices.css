@@ -1,10 +1,14 @@
 section#packages_and_prices {
-  margin-top: 3%;
+  margin-top: 100px;
+  position: static;
+  width: 100%;
+  padding: 2em 4em;
+/*  margin-top: 3%;
   width: 77%;
   position: absolute;
   top: 85px;
   left: 50%;
-  transform: translate(-50%);
+  transform: translate(-50%);*/
 }
 
 .text_p_p {
