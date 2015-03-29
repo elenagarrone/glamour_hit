@@ -22,14 +22,21 @@ body {
 }
 
 .nav.navbar-nav {
-  position: fixed;
+  position: static;
+  width: 100%;
+  padding: 0px 347px;
+/*  position: fixed;
   top: 25px;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
 }
 
 .container {
-  top: 45%;
+  top: 42%;
+}
+
+.navbar-header {
+  position: absolute;
 }
 
 .nav.navbar-nav li {
