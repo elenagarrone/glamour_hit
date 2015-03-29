@@ -25,6 +25,10 @@ body {
   position: static;
   width: 100%;
   padding: 0px 347px;
+  left: 0%;
+  transform: initial;
+  position: static;
+
 /*  position: fixed;
   top: 25px;
   left: 50%;
@@ -61,6 +65,10 @@ body {
 
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
   color: #AA052A;
+}
+
+.carousel-indicators {
+  bottom: 30px;
 }
 
 /*footer {
