@@ -18,7 +18,6 @@ html,
 body {
   height: 100%;
   font-family: 'Lato', sans-serif;
-  /*margin-top: 30px;*/
 }
 
 .nav.navbar-nav {
@@ -28,11 +27,6 @@ body {
   left: 0%;
   transform: initial;
   position: static;
-
-/*  position: fixed;
-  top: 25px;
-  left: 50%;
-  transform: translate(-50%, -50%);*/
 }
 
 .container {
@@ -51,8 +45,6 @@ body {
 }
 
 .nav.navbar-nav li a {
-  /*text-shadow: 1px 1px 1px rgb(131, 131, 131);*/
-  /*color: white;*/
   color: rgb(48, 48, 48);
   font-size: 1em;
 }
@@ -60,30 +52,24 @@ body {
 .navbar-inverse .navbar-brand { color: rgb(48, 48, 48); }
 
 .navbar.navbar-inverse.navbar-fixed-top {
-  /*background-color: transparent;*/
   border-bottom: none;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.35)), to(rgba(255, 255, 255, 0)));
-  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0);
-  background:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0);
-  background:      -o-linear-gradient(top, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0);
-  background:         linear-gradient(to bottom, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0);
-
-  /*background: -webkit-gradient(linear, center bottom, center top, from(transparent), to(rgba(255, 255, 255, 0.35)));*/
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0));
+  background:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0));
+  background:      -o-linear-gradient(top, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0));
+  background:         linear-gradient(to bottom, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0));
   border-color: transparent;
   height: 60px;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
   color: #AA052A;
+  background-color: transparent;
 }
 
 .carousel-indicators {
   bottom: 30px;
 }
-
-/*footer {
-  margin: 50px 0;
-}*/
 
 @media all and (min-width: 992px) and (max-width : 1199px) {
   
