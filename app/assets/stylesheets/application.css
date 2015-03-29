@@ -37,6 +37,9 @@ body {
 
 .container {
   top: 42%;
+  left: 0% !important;
+  transform: initial !important;
+  position: static !important;
 }
 
 .navbar-header {
