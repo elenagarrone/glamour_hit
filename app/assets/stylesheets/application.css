@@ -60,7 +60,7 @@ body {
 .navbar-inverse .navbar-brand { color: rgb(48, 48, 48); }
 
 .navbar.navbar-inverse.navbar-fixed-top {
-  background: -webkit-gradient(linear, center bottom, center top, from(rgba(0, 0, 0, 0)), to(rgba(255, 255, 255, 1)));
+  background: -webkit-gradient(linear, center bottom, center top, from(transparent), to(rgba(255, 255, 255, 0.35)));
   border-color: transparent;
   border-bottom: none;
   height: 60px;
