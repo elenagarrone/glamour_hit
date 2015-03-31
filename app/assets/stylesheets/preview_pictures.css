@@ -3,11 +3,8 @@
   top: 250px;
 }
 
-.main {
-  margin: 15%;
+section.container {
+  margin-top: 100px;
+  text-align: center;
 }
 
-/*img {
-  vertical-align: none;
-  width: 0;
-}*/
