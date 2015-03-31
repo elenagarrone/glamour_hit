@@ -86,7 +86,13 @@ body {
     padding: 0em 3em;
   }
 
+  #p_services {
+    font-size: 1em;
+  }
 
+  #services h1 {
+    font-size: 1.7em;
+  }
 
 }
 
