@@ -3,6 +3,11 @@
   top: 250px;
 }
 
+.main {
+  margin-top: 100px;
+  padding: 3% 33%;
+}
+
 section.container {
   margin-top: 100px;
   text-align: center;
