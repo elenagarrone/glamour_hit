@@ -8,3 +8,15 @@ section.container {
   text-align: center;
 }
 
+img.grayscale{ 
+  margin: 1.5px 0px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+  filter: gray;  /* For IE 6 - 9 */
+}
+
+img.grayscale:hover{ 
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  filter: none;
+}
