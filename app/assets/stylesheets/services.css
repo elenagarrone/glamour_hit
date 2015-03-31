@@ -79,3 +79,19 @@ body {
   }
 
 }
+
+@media all and (max-width : 450px) {
+
+  #services {
+    padding: 0em 3em;
+  }
+
+
+
+}
+
+
+
+
+
+
