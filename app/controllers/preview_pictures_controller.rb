@@ -7,7 +7,7 @@ class PreviewPicturesController < ApplicationController
   def create
     @preview_picture = PreviewPicture.create(preview_picture_params)
     id = @preview_picture.id
-    redirect_to "/preview_pictures/#{id}/pictures/new"
+    redirect_to "/gallery/#{id}/pictures/new"
   end
 
   def show
@@ -28,7 +28,7 @@ class PreviewPicturesController < ApplicationController
     @preview_picture = PreviewPicture.find(params[:id])
     @preview_picture.update(preview_picture_params)
     id = @preview_picture.id
-    redirect_to "/pictures/#{id}/edit"
+    redirect_to "/gallery/#{id}/edit"
     # redirect_to preview_pictures_path
   end
 

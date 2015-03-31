@@ -59,7 +59,7 @@ Rails.application.routes.draw do
   resources :services
   resources :packages_and_prices
   resources :contacts, only: [:new, :create]
-  resources :preview_pictures, shallow: true do
+  resources :preview_pictures, :path => "gallery", shallow: true do
     resources :pictures
   end
 end
