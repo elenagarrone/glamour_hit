@@ -116,6 +116,7 @@ article#p_p_requirements ul li{
 
   #packages_and_prices article ul {
     font-size: 1em;
+    padding-left: 26px;
   }
 
   #packages_and_prices article h3 {
@@ -123,7 +124,7 @@ article#p_p_requirements ul li{
   }
 
   #packages_and_prices article h5 {
-    font-size: 1.3em;
+    font-size: 1.4em;
   }
 
 }
