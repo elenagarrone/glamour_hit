@@ -108,4 +108,26 @@ article#p_p_requirements ul li{
   }
 }
 
+@media all and (max-width : 450px) {
+
+  section#packages_and_prices {
+    padding: 0em 3em 2em 3em;
+  }
+
+  #packages_and_prices article ul {
+    font-size: 1em;
+  }
+
+  #packages_and_prices article h3 {
+    font-size: 1.7em;
+  }
+
+  #packages_and_prices article h5 {
+    font-size: 1.3em;
+  }
+
+}
+
+
+
 
