@@ -42,3 +42,21 @@ abbr[title], abbr[data-original-title] {
   background-color: #8B001F;
   border-color: #80011D;
 }
+
+@media all and (max-width : 450px) {
+
+  section.container {
+    margin-top: 10px !important;
+    width: 100% !important;
+  }
+
+  #contact h3 {
+    font-size: 1.7em;
+  }
+
+  #contact p, label {
+    font-size: 1em;
+  }
+
+
+}
