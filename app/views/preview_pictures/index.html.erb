@@ -2,10 +2,9 @@
   <article id='gallery'>
     <% PreviewPicture.all.each do |preview_picture| %>
       <a class="fancybox" rel="group" href="<%= preview_picture.picture.image.url(:original)%>" ><%= image_tag preview_picture.image.url(:original), :class => 'grayscale' %></a>
-      <% if user_signed_in? %>
-        <%= link_to "Delete", preview_picture_path(:id => preview_picture.id), method: :delete %>
-        <%= link_to "Edit", edit_preview_picture_path(preview_picture) %>
-      <% end %>
+        <%= link_to "Delete #{preview_picture.id}", preview_picture_path(:id => preview_picture.id), method: :delete %>
+        <%= link_to "Edit #{preview_picture.id}", edit_preview_picture_path(:id => preview_picture.id) %>
+
     <% end %>
   </article>
 </section>
