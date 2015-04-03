@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :users, :path => '', :path_names => {:sign_in => 'frikti/login', :sign_out => 'frikti/logout', :sign_up => 'frikti/sign_up'}
+  devise_for :users, :path => '', :path_names => {:sign_in => ENV['SIGN_IN'], :sign_out => ENV['SIGN_OUT'], :sign_up => ENV['SIGN_UP']}
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

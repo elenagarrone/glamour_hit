@@ -86,8 +86,19 @@ Rails.application.configure do
     address:              'smtp.gmail.com',
     port:                 587,
     domain:               'gmail.com',
-    user_name:            'email', #to be added
-    password:             'password', #to be added
+    user_name:            ENV["EMAIL_MAILER"] #'email', to be added
+    password:             ENV["PASSWORD_MAILER"] #'password', to be added
     authentication:       'plain',
-    enable_starttls_auto: true  }
+    enable_starttls_auto: true  
+  }
+
+  config.paperclip_defaults = {
+    :storage => :s3,
+    :s3_credentials => {
+      :bucket => ENV['S3_BUCKET_NAME'],
+      :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
+      :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
+    }
+  }
+
 end
