@@ -8,7 +8,7 @@ class Contact < MailForm::Base
   def headers
     {
       :subject => "Contact form from GlamourHit",
-      :to => "email", #to be added
+      :to => ENV["EMAIL_MAILER"], #to be added
       :from => %("#{name}" <#{email}>)
     }
   end
