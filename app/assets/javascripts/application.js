@@ -16,6 +16,7 @@
 //= require turbolinks
 //= require_tree .
 //= require fancybox
+//= require jquery.turbolinks
 
 $(document).ready(function() {
   
@@ -28,5 +29,8 @@ $(document).ready(function() {
   $("a.fancybox").fancybox();
 
 
+  $('a.navbar-brand').on('click', function(){
+    location.href = location.origin + '/homepage'
+  })
 
 });
