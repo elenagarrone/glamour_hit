@@ -20,17 +20,15 @@
 
 $(document).ready(function() {
   
-  // if(window.location.href !== "/homepage"){
-  //   $('.navbar.navbar-inverse.navbar-fixed-top').css('background-color', 'rgb(58, 58, 58)')
-
-  //   $('.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus').css('text-shadow', '1px 1px 1px rgb(197, 197, 197)')
-  // }
-  
   $("a.fancybox").fancybox();
 
 
   $('a.navbar-brand').on('click', function(){
     location.href = location.origin + '/homepage'
+  })
+
+  $('a.gallery_js').on('click', function(){
+    location.href = location.origin + '/gallery'
   })
 
 });

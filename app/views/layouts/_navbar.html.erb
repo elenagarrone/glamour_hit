@@ -9,7 +9,6 @@
         <span class="icon-bar"></span>
       </button>
       <%= link_to "Glamour Hit", root_path, :class => "navbar-brand" %>
-      <!-- <a class="navbar-brand" href="/homepage", :onclick => 'homeclick()'>Glamour Hit</a> -->
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
@@ -20,7 +19,7 @@
           <%= link_to "Packages & Prices", packages_and_prices_path %>
         </li>
         <li>
-          <%= link_to "Gallery", preview_pictures_path %>
+          <%= link_to "Gallery", preview_pictures_path, :class => "gallery_js" %>
         </li>
         <li>
           <%= link_to "Contact", new_contact_path %>
