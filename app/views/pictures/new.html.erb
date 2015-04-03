@@ -1,7 +1,7 @@
 <section class='main'>
   <h1>Add a picture</h1>
 
-  <%= form_for [@preview_picture, @picture], url: preview_picture_pictures_path do |f| %>
+  <%= form_for [@preview_picture, @picture], :html => { :multipart => true }, url: preview_picture_pictures_path do |f| %>
     <%= f.file_field :image %>
     <%= f.submit %>
   <% end %>
