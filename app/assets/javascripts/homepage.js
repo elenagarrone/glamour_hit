@@ -2,7 +2,7 @@ $(document).ready(function() {
   
   $('.carousel').carousel({
     pause: "false",
-    interval: 3000 
+    interval: 5000 
   });
   
 })
