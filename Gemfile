@@ -39,7 +39,7 @@ gem 'mail'
 gem 'rails_12factor'
 gem 'paperclip'
 gem 'fancybox2-rails'
-gem 'aws-sdk'
+gem 'aws-sdk', '< 2.0'
 gem 'jquery-turbolinks'
 gem "figaro"
 
