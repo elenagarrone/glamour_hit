@@ -16,7 +16,7 @@ class PicturesController < ApplicationController
   end
 
   def edit
-    @picture = Picture.find(params[:id])
+    @picture = Picture.find(params[:preview_picture_id])
   end
 
   def update
@@ -28,6 +28,7 @@ class PicturesController < ApplicationController
   end
 
   def picture_params
+    params.require(:preview_picture).permit(:image)
     params.require(:picture).permit(:image)
   end
 
