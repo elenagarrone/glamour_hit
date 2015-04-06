@@ -51,7 +51,12 @@ body {
 
 .navbar-inverse .navbar-brand { 
   color: rgb(48, 48, 48); 
-  font-family: 'Great Vibes', cursive;
+}
+
+
+.navbar-inverse .navbar-brand img { 
+  top: -6px;
+  position: relative;
 }
 
 .navbar.navbar-inverse.navbar-fixed-top {
@@ -66,7 +71,7 @@ body {
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
-  color: #DA0009 !important;
+  color: #D00009 !important;
   /*color: #AA052A;*/
   background-color: transparent;
 }
