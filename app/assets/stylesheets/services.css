@@ -13,7 +13,8 @@ body {
 #services h1 {
   font-family: 'Great Vibes', cursive;
   font-size: 3em;
-  color: #AA052A;
+  color: #DA0009 !important;
+  /*color: #AA052A;*/
   /*font-weight: 700;*/
 }
 
