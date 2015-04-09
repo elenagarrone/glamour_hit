@@ -1,6 +1,6 @@
 <% if user_signed_in? %>
   <section class='main'>
-    <h1>Add a picture</h1>
+    <h1>Add a picture (horizontal: 1620px x ~1080px - vertical: 720px x ~1080px)</h1>
 
     <%= form_for [@preview_picture, @picture], :html => { :multipart => true }, url: preview_picture_pictures_path do |f| %>
       <%= f.file_field :image %>
