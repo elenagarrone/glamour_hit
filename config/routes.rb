@@ -55,6 +55,7 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
   resources :homepage
   resources :services
   resources :packages_and_prices
@@ -62,4 +63,5 @@ Rails.application.routes.draw do
   resources :preview_pictures, :path => "gallery", shallow: true do
     resources :pictures
   end
+
 end
