@@ -1,11 +1,15 @@
-<section class='main'>
-  <article id='form_preview'>
-    <h3>Edit the picture's preview (250px x 250px)</h3>
+<% if user_signed_in? %>
+  <section class='main'>
+    <article id='form_preview'>
+      <h3>Edit the picture's preview (250px x 250px)</h3>
 
-    <%= form_for @preview_picture, html: {multipart: true} do |f| %>
-      <%= f.file_field :image %>
-      <%= f.submit %>
-    <% end %>
+      <%= form_for @preview_picture, html: {multipart: true} do |f| %>
+        <%= f.file_field :image %>
+        <%= f.submit %>
+      <% end %>
 
-  </article>
-</section>
+    </article>
+  </section>
+<% else %>
+  <h1 id='must_signin'>You need to sign in</h1>
+<% end %>

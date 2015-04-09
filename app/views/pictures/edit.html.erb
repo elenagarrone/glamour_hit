@@ -1,6 +1,10 @@
-<h1>Edit a picture</h1>
+<% if user_signed_in? %>
+  <h1>Edit a picture</h1>
 
-<%= form_for @picture do |f| %>
-  <%= f.file_field :image %>
-  <%= f.submit %>
+  <%= form_for @picture do |f| %>
+    <%= f.file_field :image %>
+    <%= f.submit %>
+  <% end %>
+<% else %>
+  <h1 id='must_signin'>You need to sign in</h1>
 <% end %>

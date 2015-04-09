@@ -80,6 +80,11 @@ body {
   bottom: 30px;
 }
 
+#must_signin {
+  position: absolute;
+  top: 250px;
+}
+
 @media all and (min-width: 992px) and (max-width : 1199px) {
   
   .nav.navbar-nav {

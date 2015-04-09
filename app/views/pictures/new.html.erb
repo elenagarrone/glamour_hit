@@ -1,8 +1,12 @@
-<section class='main'>
-  <h1>Add a picture</h1>
+<% if user_signed_in? %>
+  <section class='main'>
+    <h1>Add a picture</h1>
 
-  <%= form_for [@preview_picture, @picture], :html => { :multipart => true }, url: preview_picture_pictures_path do |f| %>
-    <%= f.file_field :image %>
-    <%= f.submit %>
-  <% end %>
-</section>
+    <%= form_for [@preview_picture, @picture], :html => { :multipart => true }, url: preview_picture_pictures_path do |f| %>
+      <%= f.file_field :image %>
+      <%= f.submit %>
+    <% end %>
+  </section>
+<% else %>
+  <h1 id='must_signin'>You need to sign in</h1>
+<% end %>
