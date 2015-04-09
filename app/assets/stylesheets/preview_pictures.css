@@ -26,3 +26,14 @@ img.grayscale:hover{
   -webkit-filter: grayscale(0%);
   filter: none;
 }
+
+#gallery h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
+  color: #D00009 !important;
+  text-align: left;
+}
+
+#gallery {
+  padding: 2em 0em;
+}
