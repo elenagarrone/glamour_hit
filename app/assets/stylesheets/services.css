@@ -1,6 +1,5 @@
 body { 
   background-color: white; 
-  /*overflow: hidden;*/
 }
 
 #services {
@@ -14,8 +13,6 @@ body {
   font-family: 'Great Vibes', cursive;
   font-size: 3em;
   color: #D00009 !important;
-  /*color: #AA052A;*/
-  /*font-weight: 700;*/
 }
 
 #p_services {
@@ -36,7 +33,7 @@ body {
 
 @media all and (min-width: 840px) and (max-width : 1280px) {
 
-  #services { padding: 2em 8em; }
+  #services { padding: 1em 8em 2em 8em; }
 
   #services h1 {
     font-size: 2.5em;

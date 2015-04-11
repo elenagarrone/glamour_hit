@@ -85,14 +85,19 @@ body {
   top: 250px;
 }
 
+@media all and (min-width: 840px) and (max-width : 1280px) {
+
+  .navbar-inverse .navbar-brand img { 
+    width: 85%;
+  }
+  
+}
+
+
 @media all and (min-width: 992px) and (max-width : 1199px) {
   
   .nav.navbar-nav {
     padding: 0px 247px;
-  }
-
-  .navbar-inverse .navbar-brand img { 
-    width: 85%;
   }
 
 }

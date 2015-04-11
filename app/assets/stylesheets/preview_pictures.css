@@ -11,7 +11,7 @@
 section.container {
   margin-top: 100px;
   text-align: center;
-  width: 69%;
+  width: 80%;
 }
 
 img.grayscale{ 
@@ -45,7 +45,7 @@ img.grayscale:hover{
   }
 
   #gallery {
-    padding: 0em 2em 1em 2em;
+    padding: 1em 7em 2em 7em;
   }
 
   #gallery h1 {
