@@ -91,12 +91,20 @@ body {
     padding: 0px 247px;
   }
 
+  .navbar-inverse .navbar-brand img { 
+    width: 85%;
+  }
+
 }
 
 @media all and (min-width: 768px) and (max-width : 991px) {
 
   .nav.navbar-nav {
     padding: 0px 137px;
+  }
+
+  .navbar-inverse .navbar-brand img { 
+    width: 80%;
   }
 
 }
@@ -140,6 +148,11 @@ body {
   .navbar-header {
     position: static;
   }
+
+  .navbar-inverse .navbar-brand img { 
+    width: 80%;
+  }
+
 
 }
 

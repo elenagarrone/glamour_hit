@@ -37,3 +37,48 @@ img.grayscale:hover{
 #gallery {
   padding: 2em 0em;
 }
+
+@media all and (min-width: 840px) and (max-width : 1280px) {
+
+  section.container {
+    width: 100% !important;
+  }
+
+  #gallery {
+    padding: 0em 2em 1em 2em;
+  }
+
+  #gallery h1 {
+    font-size: 2.5em;
+  }
+
+}
+
+@media all and (max-width : 839px) {
+
+  section.container {
+    width: 100% !important;
+  }
+
+  #gallery {
+    padding: 0em 5em 3em 5em;
+  }
+
+  #gallery h1 {
+    font-size: 2em;
+  }
+
+}
+
+@media all and (max-width : 450px) {
+
+  #gallery {
+    padding: 0em 2em 1em 2em;
+    margin-top: 90px;
+  }
+
+  #gallery h1 {
+    font-size: 1.7em;
+  }
+
+}
