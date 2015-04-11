@@ -43,6 +43,36 @@ abbr[title], abbr[data-original-title] {
   border-color: #80011D;
 }
 
+textarea {
+  resize: none;
+}
+
+textarea.form-control { height: 100px; }
+
+@media all and (min-width: 840px) and (max-width : 1280px) {
+
+  #contact h3 {
+    font-size: 2.5em;
+  }
+
+  #contact p, label {
+    font-size: 1.1em;
+  }
+
+}
+
+@media all and (max-width : 839px) {
+
+  #contact h3 {
+    font-size: 2.3em;
+  }
+
+  #contact p, label {
+    font-size: 1.1em;
+  }
+
+}
+
 @media all and (max-width : 450px) {
 
   section.container {
@@ -51,7 +81,7 @@ abbr[title], abbr[data-original-title] {
   }
 
   #contact h3 {
-    font-size: 1.7em;
+    font-size: 2em;
   }
 
   #contact p, label {
