@@ -55,6 +55,7 @@ body {
 
 
 .navbar-inverse .navbar-brand img { 
+  left: 10px;
   top: -6px;
   position: relative;
 }
