@@ -30,7 +30,7 @@ module GlamourHit
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
-    config.middleware.swap(ActionDispatch::Static, Rack::Zippy::AssetServer)
+    # config.middleware.swap(ActionDispatch::Static, Rack::Zippy::AssetServer)
     config.serve_static_files = true
 
   end

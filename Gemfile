@@ -44,6 +44,7 @@ gem 'jquery-turbolinks'
 gem "figaro"
 gem 'newrelic_rpm'
 gem 'rack-zippy'
+gem 'heroku_rails_deflate'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
