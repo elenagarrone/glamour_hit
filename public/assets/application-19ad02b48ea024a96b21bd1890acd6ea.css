@@ -65,6 +65,36 @@ abbr[title], abbr[data-original-title] {
   border-color: #80011D;
 }
 
+textarea {
+  resize: none;
+}
+
+textarea.form-control { height: 100px; }
+
+@media all and (min-width: 840px) and (max-width : 1280px) {
+
+  #contact h3 {
+    font-size: 2.5em;
+  }
+
+  #contact p, label {
+    font-size: 1.1em;
+  }
+
+}
+
+@media all and (max-width : 839px) {
+
+  #contact h3 {
+    font-size: 2.3em;
+  }
+
+  #contact p, label {
+    font-size: 1.1em;
+  }
+
+}
+
 @media all and (max-width : 450px) {
 
   section.container {
@@ -73,7 +103,7 @@ abbr[title], abbr[data-original-title] {
   }
 
   #contact h3 {
-    font-size: 1.7em;
+    font-size: 2em;
   }
 
   #contact p, label {
@@ -82,11 +112,6 @@ abbr[title], abbr[data-original-title] {
 
 
 }
-
-
-
-
-
 .carousel,
 .item,
 .active {
@@ -110,23 +135,63 @@ abbr[title], abbr[data-original-title] {
 }
 
 #image1 {
-  background-image: url(/assets/_MG_0650-1bfad3db56742c5ab15c5522a7be24e7.jpg);
+  background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/_MG_0208.jpg');
 }
 
 #image2 {
-  background-image: url(/assets/_MG_0246jpeg-2271d9b3b075fec197a507604916e5ec.jpg);
+  background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/_MG_0187(2).jpg');
 }
 
 #image3 {
-  background-image: url(/assets/16-d0ac616bac93d0eacbb9480d9724d7f7.jpg);
+  background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/16.jpg');
 }
 
 #image4 {
-  background-image: url(/assets/_MG_0111-acb25483ebc478675e2698181608b9aa.jpg);
+  background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/_MG_0275.jpg');
+}
+
+#image5 {
+  background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/_MG_0190+-+BW(2).jpg');
+}
+
+#image6 {
+  background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/_MG_0111.jpg');
+}
+
+#image7 {
+  background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/_MG_0650.jpg');
 }
 
 .carousel-indicators {
   bottom: 90px;
+}
+
+@media all and (max-width : 767px) {
+
+  #image1 {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/_MG_0208-sm.jpg');
+  }
+
+  #image2 {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/_MG_0246jpeg-sm.jpg');
+  }
+
+  #image3 {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/16-sm.jpg');
+  }
+
+  #image4 {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/_MG_0275-sm.jpg');
+  }
+
+  #image5 {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/_MG_0111-sm.jpg');
+  }
+
+  #image6 {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/_MG_0650-sm.jpg');
+  }
+
 }
 section#packages_and_prices {
   margin-top: 100px;
@@ -226,7 +291,7 @@ article#p_p_requirements ul li{
   }
 
   #packages_and_prices article h3 {
-    font-size: 2em;
+    font-size: 2.3em;
   }
 
   #packages_and_prices article ul {
@@ -250,7 +315,7 @@ article#p_p_requirements ul li{
   }
 
   #packages_and_prices article h3 {
-    font-size: 1.7em;
+    font-size: 2em;
   }
 
   #packages_and_prices article h5 {
@@ -303,7 +368,7 @@ img.grayscale:hover{
 section.container {
   margin-top: 100px;
   text-align: center;
-  width: 80%;
+  width: 84%;
 }
 
 img.grayscale{ 
@@ -337,7 +402,7 @@ img.grayscale:hover{
   }
 
   #gallery {
-    padding: 0em 7em 2em 7em;
+    padding: 1em 7em 2em 7em;
   }
 
   #gallery h1 {
@@ -357,7 +422,7 @@ img.grayscale:hover{
   }
 
   #gallery h1 {
-    font-size: 2em;
+    font-size: 2.3em;
   }
 
 }
@@ -370,7 +435,7 @@ img.grayscale:hover{
   }
 
   #gallery h1 {
-    font-size: 1.7em;
+    font-size: 2em;
   }
 
 }
@@ -438,7 +503,7 @@ body {
   }
 
   #services h1 {
-    font-size: 2em;
+    font-size: 2.3em;
   }
 
   #p_services {
@@ -465,7 +530,7 @@ body {
   }
 
   #services h1 {
-    font-size: 1.7em;
+    font-size: 2em;
   }
 
 }
@@ -533,6 +598,7 @@ body {
 
 
 .navbar-inverse .navbar-brand img { 
+  left: 10px;
   top: -6px;
   position: relative;
 }
@@ -563,17 +629,29 @@ body {
   top: 250px;
 }
 
-@media all and (min-width: 992px) and (max-width : 1199px) {
-  
-  .nav.navbar-nav {
-    padding: 0px 247px;
-  }
+a:hover, a:focus {
+  color: transparent;
+  text-decoration: none;
+}
+
+
+@media all and (min-width: 840px) and (max-width : 1280px) {
 
   .navbar-inverse .navbar-brand img { 
     width: 85%;
   }
 
 }
+
+
+@media all and (min-width: 992px) and (max-width : 1199px) {
+  
+  .nav.navbar-nav {
+    padding: 0px 247px;
+  }
+
+}
+
 
 @media all and (min-width: 768px) and (max-width : 991px) {
 
@@ -586,6 +664,7 @@ body {
   }
 
 }
+
 
 @media all and (max-width : 767px) {
 
@@ -630,7 +709,6 @@ body {
   .navbar-inverse .navbar-brand img { 
     width: 80%;
   }
-
 
 }
 
