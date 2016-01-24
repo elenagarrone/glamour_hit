@@ -19,6 +19,8 @@ body {
   font-family: 'Great Vibes', cursive;
   font-size: 2em;
   float: right;
+  margin-right: 50px;
+  margin-top: 20px;
 }
 
 #p_services {
@@ -85,6 +87,10 @@ body {
 }
 
 @media all and (max-width : 450px) {
+
+  .signature {
+    margin-right: 20px;
+  }
 
   #services {
     padding: 0em 3em 2em 3em;
