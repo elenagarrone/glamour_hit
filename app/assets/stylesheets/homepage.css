@@ -21,32 +21,29 @@
 }
 
 #image1 {
-  background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/_MG_0208.jpg');
-}
-
-#image2 {
-  background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/_MG_0187(2).jpg');
-}
-
-#image3 {
-  background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/16.jpg');
-}
-
-#image4 {
   background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/_MG_0275.jpg');
 }
 
+#image2 {
+  background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/16.jpg');
+}
+
+#image3 {
+  background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/JR6B0252.jpg');
+}
+
+#image4 {
+  background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/JR6B0241.jpg');
+}
+
 #image5 {
-  background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/_MG_0190+-+BW(2).jpg');
+  background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/_MG_0208.jpg');
 }
 
 #image6 {
-  background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/_MG_0111.jpg');
+  background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/_MG_0187(2).jpg');
 }
 
-#image7 {
-  background-image: url('https://s3-eu-west-1.amazonaws.com/glamourhit/images/_MG_0650.jpg');
-}
 
 .carousel-indicators {
   bottom: 90px;

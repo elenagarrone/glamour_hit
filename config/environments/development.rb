@@ -47,7 +47,7 @@ Rails.application.configure do
     user_name:            ENV["EMAIL_MAILER"], #'email', to be added
     password:             ENV["PASSWORD_MAILER"], #'password', to be added
     authentication:       'plain',
-    enable_starttls_auto: true  
+    enable_starttls_auto: true
   }
 
   config.paperclip_defaults = {
