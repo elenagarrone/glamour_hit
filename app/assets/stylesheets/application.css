@@ -49,12 +49,12 @@ body {
   font-size: 1em;
 }
 
-.navbar-inverse .navbar-brand { 
-  color: rgb(48, 48, 48); 
+.navbar-inverse .navbar-brand {
+  color: rgb(48, 48, 48);
 }
 
 
-.navbar-inverse .navbar-brand img { 
+.navbar-inverse .navbar-brand img {
   left: 10px;
   top: -6px;
   position: relative;
@@ -77,6 +77,10 @@ body {
   background-color: transparent;
 }
 
+.navbar.navbar-inverse.navbar-fixed-top.unfixed-top {
+    position: absolute;
+}
+
 .carousel-indicators {
   bottom: 30px;
 }
@@ -94,7 +98,7 @@ a:hover, a:focus {
 
 @media all and (min-width: 840px) and (max-width : 1280px) {
 
-  .navbar-inverse .navbar-brand img { 
+  .navbar-inverse .navbar-brand img {
     width: 85%;
   }
 
@@ -102,7 +106,7 @@ a:hover, a:focus {
 
 
 @media all and (min-width: 992px) and (max-width : 1199px) {
-  
+
   .nav.navbar-nav {
     padding: 0px 247px;
   }
@@ -116,7 +120,7 @@ a:hover, a:focus {
     padding: 0px 137px;
   }
 
-  .navbar-inverse .navbar-brand img { 
+  .navbar-inverse .navbar-brand img {
     width: 80%;
   }
 
@@ -163,17 +167,8 @@ a:hover, a:focus {
     position: static;
   }
 
-  .navbar-inverse .navbar-brand img { 
+  .navbar-inverse .navbar-brand img {
     width: 80%;
   }
 
 }
-
-
-
-
-
-
-
-
-
