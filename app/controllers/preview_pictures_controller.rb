@@ -17,7 +17,11 @@ class PreviewPicturesController < ApplicationController
   def destroy
     @preview_picture = PreviewPicture.find(params[:id])
     @preview_picture.destroy
-    redirect_to preview_pictures_path
+    if @preview_picture.destroyed?
+        redirect_to preview_pictures_path
+    else
+        raise "Something went wrong"
+    end
   end
 
   def edit
