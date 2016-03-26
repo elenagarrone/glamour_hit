@@ -23,7 +23,7 @@ body {
 .nav.navbar-nav {
   position: static;
   width: 100%;
-  padding: 12px 347px;
+  padding: 28px 347px 12px;
   left: 0%;
   transform: initial;
   position: static;
@@ -68,7 +68,7 @@ body {
   background:      -o-linear-gradient(top, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0));
   background:         linear-gradient(to bottom, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0));
   border-color: transparent;
-  height: 60px;
+  height: 90px;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
@@ -99,7 +99,7 @@ a:hover, a:focus {
 @media all and (min-width: 840px) and (max-width : 1280px) {
 
   .navbar-inverse .navbar-brand img {
-    width: 85%;
+    width: 80%;
   }
 
 }
@@ -107,18 +107,28 @@ a:hover, a:focus {
 
 @media all and (min-width: 992px) and (max-width : 1199px) {
 
-  .nav.navbar-nav {
-    padding: 0px 247px;
-  }
+    .nav.navbar-nav {
+        position: inherit;
+        width: auto;
+        padding: 28px 0 12px;
+        left: auto;
+        transform: inherit;
+        float: right;
+    }
 
 }
 
 
 @media all and (min-width: 768px) and (max-width : 991px) {
 
-  .nav.navbar-nav {
-    padding: 0px 137px;
-  }
+    .nav.navbar-nav {
+        position: inherit;
+        width: auto;
+        padding: 28px 0 12px;
+        left: auto;
+        transform: inherit;
+        float: right;
+    }
 
   .navbar-inverse .navbar-brand img {
     width: 80%;
