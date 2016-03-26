@@ -21,12 +21,12 @@ body {
 }
 
 .nav.navbar-nav {
-  position: static;
-  width: 100%;
-  padding: 28px 347px 12px;
-  left: 0%;
-  transform: initial;
-  position: static;
+    position: inherit;
+    width: auto;
+    padding: 28px 0 12px;
+    left: auto;
+    transform: inherit;
+    float: right;
 }
 
 .container {
@@ -105,30 +105,8 @@ a:hover, a:focus {
 }
 
 
-@media all and (min-width: 992px) and (max-width : 1199px) {
-
-    .nav.navbar-nav {
-        position: inherit;
-        width: auto;
-        padding: 28px 0 12px;
-        left: auto;
-        transform: inherit;
-        float: right;
-    }
-
-}
-
 
 @media all and (min-width: 768px) and (max-width : 991px) {
-
-    .nav.navbar-nav {
-        position: inherit;
-        width: auto;
-        padding: 28px 0 12px;
-        left: auto;
-        transform: inherit;
-        float: right;
-    }
 
   .navbar-inverse .navbar-brand img {
     width: 80%;
